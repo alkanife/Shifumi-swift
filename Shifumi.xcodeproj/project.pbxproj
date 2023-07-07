@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EE5FFAE2A5843A200A5C321 /* ShifumiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5FFAD2A5843A200A5C321 /* ShifumiApp.swift */; };
+		8EE5FFB02A5843A200A5C321 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5FFAF2A5843A200A5C321 /* ContentView.swift */; };
+		8EE5FFB22A5843A300A5C321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE5FFB12A5843A300A5C321 /* Assets.xcassets */; };
+		8EE5FFB52A5843A300A5C321 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE5FFB42A5843A300A5C321 /* Preview Assets.xcassets */; };
+		8EE5FFC02A5843A300A5C321 /* ShifumiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5FFBF2A5843A300A5C321 /* ShifumiTests.swift */; };
+		8EE5FFCA2A5843A300A5C321 /* ShifumiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5FFC92A5843A300A5C321 /* ShifumiUITests.swift */; };
+		8EE5FFCC2A5843A300A5C321 /* ShifumiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE5FFCB2A5843A300A5C321 /* ShifumiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EE5FFBC2A5843A300A5C321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE5FFA22A5843A200A5C321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE5FFA92A5843A200A5C321;
+			remoteInfo = Shifumi;
+		};
+		8EE5FFC62A5843A300A5C321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE5FFA22A5843A200A5C321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE5FFA92A5843A200A5C321;
+			remoteInfo = Shifumi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EE5FFAA2A5843A200A5C321 /* Shifumi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shifumi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE5FFAD2A5843A200A5C321 /* ShifumiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShifumiApp.swift; sourceTree = "<group>"; };
+		8EE5FFAF2A5843A200A5C321 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EE5FFB12A5843A300A5C321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EE5FFB42A5843A300A5C321 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EE5FFB62A5843A300A5C321 /* Shifumi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shifumi.entitlements; sourceTree = "<group>"; };
+		8EE5FFBB2A5843A300A5C321 /* ShifumiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShifumiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE5FFBF2A5843A300A5C321 /* ShifumiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShifumiTests.swift; sourceTree = "<group>"; };
+		8EE5FFC52A5843A300A5C321 /* ShifumiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShifumiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE5FFC92A5843A300A5C321 /* ShifumiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShifumiUITests.swift; sourceTree = "<group>"; };
+		8EE5FFCB2A5843A300A5C321 /* ShifumiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShifumiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EE5FFA72A5843A200A5C321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE5FFB82A5843A300A5C321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE5FFC22A5843A300A5C321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EE5FFA12A5843A200A5C321 = {
+			isa = PBXGroup;
+			children = (
+				8EE5FFAC2A5843A200A5C321 /* Shifumi */,
+				8EE5FFBE2A5843A300A5C321 /* ShifumiTests */,
+				8EE5FFC82A5843A300A5C321 /* ShifumiUITests */,
+				8EE5FFAB2A5843A200A5C321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE5FFAB2A5843A200A5C321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5FFAA2A5843A200A5C321 /* Shifumi.app */,
+				8EE5FFBB2A5843A300A5C321 /* ShifumiTests.xctest */,
+				8EE5FFC52A5843A300A5C321 /* ShifumiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EE5FFAC2A5843A200A5C321 /* Shifumi */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5FFAD2A5843A200A5C321 /* ShifumiApp.swift */,
+				8EE5FFAF2A5843A200A5C321 /* ContentView.swift */,
+				8EE5FFB12A5843A300A5C321 /* Assets.xcassets */,
+				8EE5FFB62A5843A300A5C321 /* Shifumi.entitlements */,
+				8EE5FFB32A5843A300A5C321 /* Preview Content */,
+			);
+			path = Shifumi;
+			sourceTree = "<group>";
+		};
+		8EE5FFB32A5843A300A5C321 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5FFB42A5843A300A5C321 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EE5FFBE2A5843A300A5C321 /* ShifumiTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5FFBF2A5843A300A5C321 /* ShifumiTests.swift */,
+			);
+			path = ShifumiTests;
+			sourceTree = "<group>";
+		};
+		8EE5FFC82A5843A300A5C321 /* ShifumiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE5FFC92A5843A300A5C321 /* ShifumiUITests.swift */,
+				8EE5FFCB2A5843A300A5C321 /* ShifumiUITestsLaunchTests.swift */,
+			);
+			path = ShifumiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EE5FFA92A5843A200A5C321 /* Shifumi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE5FFCF2A5843A300A5C321 /* Build configuration list for PBXNativeTarget "Shifumi" */;
+			buildPhases = (
+				8EE5FFA62A5843A200A5C321 /* Sources */,
+				8EE5FFA72A5843A200A5C321 /* Frameworks */,
+				8EE5FFA82A5843A200A5C321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shifumi;
+			productName = Shifumi;
+			productReference = 8EE5FFAA2A5843A200A5C321 /* Shifumi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EE5FFBA2A5843A300A5C321 /* ShifumiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE5FFD22A5843A300A5C321 /* Build configuration list for PBXNativeTarget "ShifumiTests" */;
+			buildPhases = (
+				8EE5FFB72A5843A300A5C321 /* Sources */,
+				8EE5FFB82A5843A300A5C321 /* Frameworks */,
+				8EE5FFB92A5843A300A5C321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE5FFBD2A5843A300A5C321 /* PBXTargetDependency */,
+			);
+			name = ShifumiTests;
+			productName = ShifumiTests;
+			productReference = 8EE5FFBB2A5843A300A5C321 /* ShifumiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EE5FFC42A5843A300A5C321 /* ShifumiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE5FFD52A5843A300A5C321 /* Build configuration list for PBXNativeTarget "ShifumiUITests" */;
+			buildPhases = (
+				8EE5FFC12A5843A300A5C321 /* Sources */,
+				8EE5FFC22A5843A300A5C321 /* Frameworks */,
+				8EE5FFC32A5843A300A5C321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE5FFC72A5843A300A5C321 /* PBXTargetDependency */,
+			);
+			name = ShifumiUITests;
+			productName = ShifumiUITests;
+			productReference = 8EE5FFC52A5843A300A5C321 /* ShifumiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE5FFA22A5843A200A5C321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8EE5FFA92A5843A200A5C321 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8EE5FFBA2A5843A300A5C321 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8EE5FFA92A5843A200A5C321;
+					};
+					8EE5FFC42A5843A300A5C321 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8EE5FFA92A5843A200A5C321;
+					};
+				};
+			};
+			buildConfigurationList = 8EE5FFA52A5843A200A5C321 /* Build configuration list for PBXProject "Shifumi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EE5FFA12A5843A200A5C321;
+			productRefGroup = 8EE5FFAB2A5843A200A5C321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE5FFA92A5843A200A5C321 /* Shifumi */,
+				8EE5FFBA2A5843A300A5C321 /* ShifumiTests */,
+				8EE5FFC42A5843A300A5C321 /* ShifumiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EE5FFA82A5843A200A5C321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE5FFB52A5843A300A5C321 /* Preview Assets.xcassets in Resources */,
+				8EE5FFB22A5843A300A5C321 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE5FFB92A5843A300A5C321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE5FFC32A5843A300A5C321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EE5FFA62A5843A200A5C321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE5FFB02A5843A200A5C321 /* ContentView.swift in Sources */,
+				8EE5FFAE2A5843A200A5C321 /* ShifumiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE5FFB72A5843A300A5C321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE5FFC02A5843A300A5C321 /* ShifumiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE5FFC12A5843A300A5C321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE5FFCC2A5843A300A5C321 /* ShifumiUITestsLaunchTests.swift in Sources */,
+				8EE5FFCA2A5843A300A5C321 /* ShifumiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EE5FFBD2A5843A300A5C321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE5FFA92A5843A200A5C321 /* Shifumi */;
+			targetProxy = 8EE5FFBC2A5843A300A5C321 /* PBXContainerItemProxy */;
+		};
+		8EE5FFC72A5843A300A5C321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE5FFA92A5843A200A5C321 /* Shifumi */;
+			targetProxy = 8EE5FFC62A5843A300A5C321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EE5FFCD2A5843A300A5C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EE5FFCE2A5843A300A5C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8EE5FFD02A5843A300A5C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shifumi/Shifumi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shifumi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alkanife.Shifumi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8EE5FFD12A5843A300A5C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shifumi/Shifumi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shifumi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alkanife.Shifumi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8EE5FFD32A5843A300A5C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alkanife.ShifumiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifumi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shifumi";
+			};
+			name = Debug;
+		};
+		8EE5FFD42A5843A300A5C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alkanife.ShifumiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shifumi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shifumi";
+			};
+			name = Release;
+		};
+		8EE5FFD62A5843A300A5C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alkanife.ShifumiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Shifumi;
+			};
+			name = Debug;
+		};
+		8EE5FFD72A5843A300A5C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.alkanife.ShifumiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Shifumi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EE5FFA52A5843A200A5C321 /* Build configuration list for PBXProject "Shifumi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE5FFCD2A5843A300A5C321 /* Debug */,
+				8EE5FFCE2A5843A300A5C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE5FFCF2A5843A300A5C321 /* Build configuration list for PBXNativeTarget "Shifumi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE5FFD02A5843A300A5C321 /* Debug */,
+				8EE5FFD12A5843A300A5C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE5FFD22A5843A300A5C321 /* Build configuration list for PBXNativeTarget "ShifumiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE5FFD32A5843A300A5C321 /* Debug */,
+				8EE5FFD42A5843A300A5C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE5FFD52A5843A300A5C321 /* Build configuration list for PBXNativeTarget "ShifumiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE5FFD62A5843A300A5C321 /* Debug */,
+				8EE5FFD72A5843A300A5C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EE5FFA22A5843A200A5C321 /* Project object */;
+}
