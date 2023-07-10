@@ -12,6 +12,8 @@ struct ShifumiApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .fixedSize()
         }
+        .windowResizability(.contentSize)
     }
 }
